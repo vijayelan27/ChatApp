@@ -1,4 +1,4 @@
-const socket = io(); // Connect to the backend
+const socket = io("https://chatapp-ten-tau.vercel.app/"); // Connect to the backend
 
 const messagesContainer = document.getElementById("messages");
 const messageInput = document.getElementById("message-input");
